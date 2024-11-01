@@ -1,0 +1,74 @@
+.button--primary{
+  display: inline-block;
+  background-color: #427ef5;
+  text-decoration: none;
+  border: 1px solid #2e69e1;
+  border-radius: 4px;
+  color: #fff;
+  padding: 12px 23px;
+  font-size: 14px;
+  letter-spacing: 1px;
+  box-shadow: 0 1px 1px 0 rgba(0,0,0,0.2);
+}
+.button--primary:hover{
+  color: #fff;
+  background-color: #5B8EF5;
+}
+
+.box-info, .box-notice{
+  color: #333;
+  background-color: #ecf3fe;
+  border-color: #ecf3fe;
+  padding: 30px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+  border-radius: 6px;
+  max-width: 750px;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 14px;
+}
+
+.box-notice{
+  background-color: #f2f7ec;
+}
+
+.box-info .eta, .box-notice .eta{
+  font-size: 1em;
+}
+.trendmd-message{
+  display: inline-block;
+}
+
+.trendmd-progress-container{
+  border-radius: 4px;
+  background: #fff;
+  border: 1px solid #ccc;
+  width: 400px;
+  height: 30px;
+  box-shadow: inset 0 1px 1px 0 rgba(0,0,0,0.2);
+  position: relative;
+}
+
+.trendmd-progress{
+  position: absolute;
+  top: -1px;
+  left: 0;
+  height: 30px;
+  border-radius: 4px;
+  border: 1px solid #2b6ede;
+  background-color: #3e81ef;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  width: 0px;
+}
+
+.push--bottom{
+  margin-bottom: 20px;
+}
+
+.form-table th {
+  width:328px;
+}
+.form-table li{
+  list-style-type: none;
+}
